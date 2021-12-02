@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compound Interest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div class="container">
+            <label>Principal </label><br>
+            <input type="text" name="val" id="principal" placeholder="Principal">
+            <br>
+            <label>Rate of Interest </label><br>
+            <input type="text" name="val" id="roi" placeholder="Rate of Interest">
+            <br>
+            <label>Years </label><br>
+            <input type="text" name="val" id="years" placeholder="Years">
+        </div>
+
+        <div id="btn">
+            <button id="calculate-btn" onclick="count()">Calculate</button>
+            <br><br>
+            <button id="reset" onclick="resetAll()">Reset</button>
+
+            <div id="output_div">
+                <label>Compound Interest is: <span id="output_span"></span></label>
+                <br>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="mock.js"></script>
+
+</html>
